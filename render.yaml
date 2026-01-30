@@ -8,7 +8,7 @@ services:
     startCommand: npm run start
     staticPublishPath: public
     autoDeploy: true
-    regions: frankfurt
+    region: frankfurt
     envVars:
       - key: DATABASE_URL
         fromDatabase:
